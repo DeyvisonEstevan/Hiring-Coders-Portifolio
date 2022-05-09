@@ -20,7 +20,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="img/foto 2.jpg" alt="foto Deyvison" />
+        <img src="img/foto square.jpg" alt="foto Deyvison" />
       </div>
       <ul>
         <li>
@@ -46,7 +46,7 @@
           ></a>
         </li>
         <li>
-          <a target="-blank" href="https://wa.me/11944023998"
+          <a target="-blank" href="https://wa.me/944023998"
             ><i class="fa-brands fa-whatsapp-square"></i
           ></a>
         </li>
@@ -61,30 +61,65 @@
         <div onclick="displayAbout()" id="arrow">
           <i id="animation" class="fa-solid fa-circle-arrow-down"></i>
         </div>
-        <div style="display: none;" id="about">
+        <div style="display: none" id="about">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi sit
-            explicabo aliquid esse laboriosam voluptas debitis facilis tempora
-            tenetur aliquam rem libero quod, exercitationem, velit quae ipsam in
-            blanditiis delectus!
+            Seja bem vindo a minha página!!! <br />
+            Busco vaga de desenvolvedor web. Sou formado em Arquitetura e
+            Urbanismo porém decidi migrar de carreira para trabalhar com algo
+            que sempre gostei. <br />
+            Sempre fui apaixonado por diversos de tecnologias, sempre as
+            aplicando nos diversos desafios que enfrentei, isto é o que mais me
+            motiva nessa transição. Busco sempre estar atualizado e por dentro
+            das tecnologias do mercado, adquirindo conhecimento dia após dia.
           </p>
         </div>
         <div class="flex_container">
-            <div>
-                <img src="img/senac logo.png" alt="logo Senac">
-                <h3>Estudos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div>
-                <img src="img/jogging.png" alt="jogging">
-                <h3>Hobby</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div>
-                <img src="img/front-end-skills.png" alt="front end skills">
-                <h3>Pretensões</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+          <div>
+            <img src="img/senac logo.png" alt="logo Senac" />
+            <h3>Estudos</h3>
+            <p>
+              Atualmente estou realizando curso Técnico em Informática para
+              Internet (Full-Stack).
+            </p>
+          </div>
+          <div>
+            <img src="img/runner blue square.png" alt="jogging" />
+            <h3>Hobby</h3>
+            <p>
+              Eu adoro fazer caminhadas e tenho um espaço especial para isso na
+              minha programação diária!
+            </p>
+          </div>
+          <div>
+            <img src="img/programming blue square.png" alt="front end skills" />
+            <h3>Linguagens</h3>
+            <table>
+              <tr>
+                <th>Front-End</th>
+                <th>Back-End</th>
+                <tr>
+                  <td>HTML</td>
+                  <td>MySQL</td>
+                </tr>
+                <tr>
+                  <td>C#</td>
+                  <td>SQLite</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>API</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>Node.js</td>
+                </tr>
+                <tr>
+                  <td>BootStrap</td>
+                  <td>.NET Core</td>
+                </tr>
+              </tr>
+            </table>
+          </div>
         </div>
         <div class="form">
           <div>
@@ -98,12 +133,12 @@
       </section>
     </main>
     <script>
-        function displayAbout() {
-            var arrow = document.getElementById('animation');
-            arrow.classList.toggle('rotate');
-            var display = document.getElementById('about');
-            display.classList.toggle('active');
-        }
+      function displayAbout() {
+        var arrow = document.getElementById("animation");
+        arrow.classList.toggle("rotate");
+        var display = document.getElementById("about");
+        display.classList.toggle("active");
+      }
     </script>
   </body>
 </html>

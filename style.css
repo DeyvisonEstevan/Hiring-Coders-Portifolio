@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
-    /* color: #000; */
 }
 
 .logo img{
@@ -22,8 +21,9 @@ a{
 }
 
 body{
-    background: url(./img/background\ 1.jpg) no-repeat center center fixed;
+    background: url(./img/background.jpg) no-repeat center center fixed;
     background-size: cover;
+    color: #fff;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #81aef0;
-    box-shadow: 1px 1px 10px 1px rgba(50, 50, 50, 0.40);
+    box-shadow: 1px 1px 10px 1px rgba(50, 50, 50, 0.80);
     margin-bottom: 15px;
 }
 
@@ -94,6 +94,9 @@ header ul li a:hover{
 #about p{
     max-width: 600px;
     margin: 0 auto;
+    background-color: #81aef0;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .flex_container {
@@ -107,7 +110,7 @@ header ul li a:hover{
     max-width: 200px;
     border-radius: 20px;
     background-color: #81aef0;
-    box-shadow: 5px 5px 5px 5px rgba(50, 50, 50, 0.40);
+    box-shadow: 5px 5px 5px 5px rgba(50, 50, 50, 0.80);
 }
 
 .flex_container img {
@@ -118,6 +121,12 @@ header ul li a:hover{
 
 .flex_container p {
     padding: 5px;
+}
+
+.flex_container table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
